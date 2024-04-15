@@ -6,7 +6,7 @@ service passwall stop
 
 # Download xray.ipk
 echo "Downloading xray.ipk..."
-wget -q -O /tmp/xray.ipk https://github.com/mohamadkhalaj/xray-service/releases/download/v3/xray-core_1.8.10-1_mipsel_24kc.ipk
+wget -q -O /tmp/xray.ipk https://downloads.openwrt.org/snapshots/packages/arm_xscale/packages/xray-core_1.8.10-r1_arm_xscale.ipk
 
 # Install xray.ipk
 echo "Installing xray.ipk..."
